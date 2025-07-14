@@ -1,61 +1,54 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
-
 <p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+  <img src="/public/img/logo (1).png" width="200" alt="Logo de PANYC">
 </p>
 
-## About Laravel
+<p align="center">
+  <a href="https://github.com/panyc/app/actions"><img src="https://github.com/panyc/app/workflows/tests/badge.svg" alt="Build Status"></a>
+  <a href="#"><img src="https://img.shields.io/badge/version-1.0.0-blue.svg" alt="Versión Actual"></a>
+  <a href="#"><img src="https://img.shields.io/badge/licencia-MIT-green.svg" alt="Licencia"></a>
+</p>
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## Acerca de PANYC
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+**PANYC** (Plataforma de Análisis Nutricional y de Costos) es un aplicativo web desarrollado en Colombia para apoyar a profesionales e instituciones del sector de servicios de alimentación. Ha sido diseñado para facilitar el análisis nutricional y la estimación de costos, adaptándose a las condiciones del entorno colombiano.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+Las funcionalidades más destacadas incluyen:
 
-## Learning Laravel
+- [Gestión de alimentos y recetas](#)
+- [Cálculo automático de nutrientes](#)
+- [Estimación de costos por porción y preparación](#)
+- [Documentación de fuentes científicas](#)
+- [Gestión de usuarios y roles](#)
+- [Generación de reportes listos para impresión](#)
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## Aprender sobre PANYC
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+PANYC cuenta con documentación clara y completa para ayudarte a comenzar con facilidad. Pronto estará disponible un [manual de usuario](#) y una [guía paso a paso](#) para aprovechar al máximo todas sus funcionalidades.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+También puedes contactar a nuestro equipo de soporte en **contacto@panyc.org** para dudas o asistencia técnica.
 
-## Laravel Sponsors
+## Aliados y Apoyo
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+Este proyecto ha sido posible gracias al esfuerzo del equipo de desarrollo de PANYC, con el apoyo de nutricionistas, docentes y expertos del sector alimentario.
 
-### Premium Partners
+¿Te gustaría apoyar el proyecto o convertirte en aliado? Escríbenos a **alianzas@panyc.org**.
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+## Contribuir
 
-## Contributing
+¡Gracias por tu interés en contribuir a PANYC! Pronto publicaremos las guías de desarrollo y lineamientos para colaboradores.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+## Código de Conducta
 
-## Code of Conduct
+Nuestro equipo se compromete a crear un espacio inclusivo y respetuoso para todos los participantes. Consulta nuestro [Código de Conducta](#) para más información.
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+## Seguridad
 
-## Security Vulnerabilities
+Si encuentras una vulnerabilidad de seguridad en PANYC, por favor notifícanos de inmediato escribiendo a **seguridad@panyc.org**. Nos comprometemos a solucionarlo rápidamente.
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+## Licencia
 
-## License
+PANYC
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+---
+
+
