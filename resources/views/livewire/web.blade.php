@@ -1,6 +1,6 @@
 <div>
 
-<header id="header" class="header sticky-top">
+    <header id="header" class="header sticky-top">
         <div class="topbar d-flex align-items-center">
             <div class="container d-flex justify-content-center justify-content-md-between">
                 <div class="contact-info d-flex align-items-center">
@@ -41,7 +41,8 @@
 
     </header>
     <main class="main">
-        <!-- Hero Section --> 
+
+        <!-- Hero Section -->
         <section id="hero" class="hero section light-background">
 
             <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in">
@@ -50,7 +51,8 @@
 
                 <div class="welcome position-relative" data-aos="fade-down" data-aos-delay="100">
                     <h2>BIENVENIDO A PANYC</h2>
-                    <p>Plataforma de Análisis Nutricional de Alimentos para profesionales en servicios alimenticios</p>
+                    <p>Plataforma para el análisis nutricional y de costos, diseñada para el sector de servicios de
+                        alimentación en Colombia.</p>
                 </div><!-- End Welcome -->
 
                 <div class="content row gy-4">
@@ -58,10 +60,11 @@
                         <div class="why-box" data-aos="zoom-out" data-aos-delay="200">
                             <h3>¿Por qué elegir PANYC?</h3>
                             <p>
-                                PANYC permite calcular calorías, nutrientes y costos de menús de forma eficiente y
-                                precisa.
-                                Es una herramienta esencial para nutricionistas, dietistas y profesionales encargados de
-                                la administración de servicios alimentarios.
+                                PANYC ofrece herramientas avanzadas para calcular calorías, nutrientes y costos de
+                                menús, adaptadas al contexto colombiano.
+                                Ideal para nutricionistas, dietistas, administradores de restaurantes, comedores
+                                industriales, hospitales, y también para estudiantes y docentes en áreas relacionadas
+                                con la nutrición.
                             </p>
                             <div class="text-center">
                                 <a href="#about" class="more-btn"><span>Conoce más</span> <i
@@ -78,8 +81,8 @@
                                     <div class="icon-box" data-aos="zoom-out" data-aos-delay="300">
                                         <i class="bi bi-clipboard-data"></i>
                                         <h4>Gestión Nutricional</h4>
-                                        <p>Organiza y analiza la información nutricional de alimentos y menús con
-                                            facilidad.</p>
+                                        <p>Organiza, analiza y ajusta menús con base en información nutricional
+                                            específica del entorno colombiano.</p>
                                     </div>
                                 </div><!-- End Icon Box -->
 
@@ -87,8 +90,8 @@
                                     <div class="icon-box" data-aos="zoom-out" data-aos-delay="400">
                                         <i class="bi bi-cash-coin"></i>
                                         <h4>Cálculo de Costos</h4>
-                                        <p>Controla los costos de los menús para una mejor planificación presupuestaria.
-                                        </p>
+                                        <p>Evalúa el costo real de menús y alimentos para una planificación eficiente en
+                                            instituciones y empresas.</p>
                                     </div>
                                 </div><!-- End Icon Box -->
 
@@ -96,8 +99,8 @@
                                     <div class="icon-box" data-aos="zoom-out" data-aos-delay="500">
                                         <i class="bi bi-bar-chart-line"></i>
                                         <h4>Soporte Profesional</h4>
-                                        <p>Diseñada para apoyar a profesionales en salud y nutrición en su toma de
-                                            decisiones.</p>
+                                        <p>Apoya a profesionales de la salud y la nutrición en la toma de decisiones
+                                            basadas en datos confiables y contextualizados.</p>
                                     </div>
                                 </div><!-- End Icon Box -->
 
@@ -109,8 +112,8 @@
             </div>
 
         </section>
+        <!-- /Hero Section -->
 
-        <!-- /Hero Section --> 
         <!-- About Section -->
         <section id="about" class="about section">
 
@@ -125,36 +128,37 @@
                     </div>
 
                     <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="100">
-                        <h3>Sobre Nosotros</h3>
+                        <h3>Sobre PANYC!</h3>
                         <p>
-                            PANYC es una plataforma especializada en el análisis nutricional y de costos de alimentos y
-                            menús.
-                            Ha sido desarrollada para brindar soporte a profesionales en nutrición y gestión
-                            alimentaria, permitiéndoles tomar decisiones informadas, rápidas y precisas.
+                            PANYC! es un aplicativo web desarrollado en Colombia para apoyar a profesionales, empresas e
+                            instituciones del sector de servicios de alimentación.
+                            Está orientado a nutricionistas, dietistas, administradores de restaurantes, comedores
+                            industriales, hospitales, docentes y estudiantes de carreras afines que necesitan analizar
+                            menús de manera precisa y adaptada al contexto nacional.
                         </p>
                         <ul>
                             <li>
                                 <i class="fa-solid fa-apple-whole"></i>
                                 <div>
                                     <h5>Precisión en el análisis nutricional</h5>
-                                    <p>Obtén datos confiables sobre calorías, macronutrientes y micronutrientes en cada
-                                        alimento o menú.</p>
+                                    <p>Consulta valores nutricionales detallados —calorías, macronutrientes, vitaminas,
+                                        minerales— según porciones y preparaciones reales utilizadas en Colombia.</p>
                                 </div>
                             </li>
                             <li>
                                 <i class="fa-solid fa-coins"></i>
                                 <div>
-                                    <h5>Optimización de recursos</h5>
-                                    <p>Controla y planifica los costos de los menús de forma eficiente para reducir
-                                        desperdicios y mejorar presupuestos.</p>
+                                    <h5>Optimización de costos</h5>
+                                    <p>Evalúa los costos de alimentos y menús con base en precios reales del mercado
+                                        local para mejorar la planeación y reducir desperdicios.</p>
                                 </div>
                             </li>
                             <li>
                                 <i class="fa-solid fa-notes-medical"></i>
                                 <div>
-                                    <h5>Soporte para decisiones clínicas y administrativas</h5>
-                                    <p>Facilita la implementación de dietas terapéuticas y la gestión de servicios
-                                        alimenticios en diversas instituciones.</p>
+                                    <h5>Apoyo clínico y administrativo</h5>
+                                    <p>Facilita la formulación de dietas terapéuticas, menús escolares, hospitalarios y
+                                        empresariales, respaldando decisiones tanto clínicas como operativas.</p>
                                 </div>
                             </li>
                         </ul>
@@ -163,10 +167,11 @@
                 </div>
 
             </div>
-        
+
         </section>
         <!-- /About Section -->
 
+        <!-- Stats Section -->
         <section id="stats" class="stats section light-background">
 
             <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -174,48 +179,50 @@
                 <div class="row gy-4">
 
                     <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
-                        <i class="fa-solid fa-users"></i>
-                        <div class="stats-item">
-                            <span data-purecounter-start="0" data-purecounter-end="0" data-purecounter-duration="1"
-                                class="purecounter"></span>
-                            <p>Usuarios registrados</p>
-                        </div>
-                    </div><!-- Fin del ítem -->
-
-                    <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
                         <i class="fa-solid fa-utensils"></i>
                         <div class="stats-item">
-                            <span data-purecounter-start="0" data-purecounter-end="0" data-purecounter-duration="1"
-                                class="purecounter"></span>
+                            <span data-purecounter-start="0" data-purecounter-end="{{ $totalAlimentos }}"
+                                data-purecounter-duration="1" class="purecounter"></span>
                             <p>Alimentos registrados</p>
                         </div>
-                    </div><!-- Fin del ítem -->
+                    </div>
+                    <!-- Fin del ítem -->
 
                     <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
-                        <i class="fa-solid fa-seedling"></i>
+                        <i class="fa-solid fa-bowl-food"></i>
                         <div class="stats-item">
-                            <span data-purecounter-start="0" data-purecounter-end="0" data-purecounter-duration="1"
-                                class="purecounter"></span>
-                            <p>Componentes nutricionales</p>
+                            <span data-purecounter-start="0" data-purecounter-end="{{ $totalPreparaciones }}"
+                                data-purecounter-duration="1" class="purecounter"></span>
+                            <p>Preparaciones registradas</p>
                         </div>
-                    </div><!-- Fin del ítem -->
+                    </div>
+                    <!-- Fin del ítem -->
 
                     <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
-                        <i class="fa-solid fa-chart-line"></i>
+                        <i class="fa-solid fa-scale-balanced"></i>
                         <div class="stats-item">
-                            <span data-purecounter-start="0" data-purecounter-end="0" data-purecounter-duration="1"
-                                class="purecounter"></span>
-                            <p>Análisis realizados</p>
+                            <span data-purecounter-start="0" data-purecounter-end="{{ $totalPorciones }}"
+                                data-purecounter-duration="1" class="purecounter"></span>
+                            <p>Preparaciones por porciones</p>
                         </div>
-                    </div><!-- Fin del ítem -->
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
+                        <i class="fa-solid fa-users"></i>
+                        <div class="stats-item">
+                            <span data-purecounter-start="0" data-purecounter-end="{{ $totalUsuarios }}"
+                                data-purecounter-duration="1" class="purecounter"></span>
+                            <p>Usuarios registrados</p>
+                        </div>
+                    </div>
 
                 </div>
 
             </div>
 
         </section>
-
         <!-- /Stats Section -->
+
         <!-- Services Section -->
         <section id="services" class="services section">
 
@@ -402,93 +409,96 @@
 
         </section><!-- /Gallery Section -->
         <!-- Contact Section -->
-<!-- Sección de Contacto -->
-<section id="contact" class="contact section">
+        <!-- Sección de Contacto -->
+        <section id="contact" class="contact section">
 
-    <!-- Título de la Sección -->
-    <div class="container section-title" data-aos="fade-up">
-        <h2>Contacto</h2>
-        <p>Estamos disponibles para ayudarte. Contáctanos a través de los siguientes medios.</p>
-    </div><!-- Fin del Título de la Sección -->
+            <!-- Título de la Sección -->
+            <div class="container section-title" data-aos="fade-up">
+                <h2>Contacto</h2>
+                <p>Estamos disponibles para ayudarte. Contáctanos a través de los siguientes medios.</p>
+            </div><!-- Fin del Título de la Sección -->
 
-    <div class="mb-5" data-aos="fade-up" data-aos-delay="200">
-        <iframe style="border:0; width: 100%; height: 270px;"
-            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48389.78314118045!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sus!4v1676961268712!5m2!1sen!2sus"
-            frameborder="0" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div><!-- Fin del Mapa de Google -->
+            <div class="mb-5" data-aos="fade-up" data-aos-delay="200">
+                <iframe style="border:0; width: 100%; height: 270px;"
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48389.78314118045!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sus!4v1676961268712!5m2!1sen!2sus"
+                    frameborder="0" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div><!-- Fin del Mapa de Google -->
 
-    <div class="container" data-aos="fade-up" data-aos-delay="100">
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-        <div class="row gy-4">
+                <div class="row gy-4">
 
-            <div class="col-lg-4">
-                <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
-                    <i class="bi bi-geo-alt flex-shrink-0"></i>
-                    <div>
-                        <h3>Ubicación</h3>
-                        <p>Calle Adam 108, Nueva York, NY 535022</p>
+                    <div class="col-lg-4">
+                        <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+                            <i class="bi bi-geo-alt flex-shrink-0"></i>
+                            <div>
+                                <h3>Ubicación</h3>
+                                <p>Calle Adam 108, Nueva York, NY 535022</p>
+                            </div>
+                        </div><!-- Fin del Ítem de Información -->
+
+                        <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+                            <i class="bi bi-telephone flex-shrink-0"></i>
+                            <div>
+                                <h3>Teléfono</h3>
+                                <p>+1 5589 55488 55</p>
+                            </div>
+                        </div><!-- Fin del Ítem de Información -->
+
+                        <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="500">
+                            <i class="bi bi-envelope flex-shrink-0"></i>
+                            <div>
+                                <h3>Correo Electrónico</h3>
+                                <p>info@ejemplo.com</p>
+                            </div>
+                        </div><!-- Fin del Ítem de Información -->
+
                     </div>
-                </div><!-- Fin del Ítem de Información -->
 
-                <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
-                    <i class="bi bi-telephone flex-shrink-0"></i>
-                    <div>
-                        <h3>Teléfono</h3>
-                        <p>+1 5589 55488 55</p>
-                    </div>
-                </div><!-- Fin del Ítem de Información -->
+                    <div class="col-lg-8">
+                        <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up"
+                            data-aos-delay="200">
+                            <div class="row gy-4">
 
-                <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="500">
-                    <i class="bi bi-envelope flex-shrink-0"></i>
-                    <div>
-                        <h3>Correo Electrónico</h3>
-                        <p>info@ejemplo.com</p>
-                    </div>
-                </div><!-- Fin del Ítem de Información -->
+                                <div class="col-md-6">
+                                    <input type="text" name="name" class="form-control"
+                                        placeholder="Tu Nombre" required="">
+                                </div>
+
+                                <div class="col-md-6">
+                                    <input type="email" class="form-control" name="email"
+                                        placeholder="Tu Correo" required="">
+                                </div>
+
+                                <div class="col-md-12">
+                                    <input type="text" class="form-control" name="subject" placeholder="Asunto"
+                                        required="">
+                                </div>
+
+                                <div class="col-md-12">
+                                    <textarea class="form-control" name="message" rows="6" placeholder="Mensaje" required=""></textarea>
+                                </div>
+
+                                <div class="col-md-12 text-center">
+                                    <div class="loading">Cargando</div>
+                                    <div class="error-message"></div>
+                                    <div class="sent-message">Tu mensaje ha sido enviado. ¡Gracias!</div>
+
+                                    <button type="submit">Enviar Mensaje</button>
+                                </div>
+
+                            </div>
+                        </form>
+                    </div><!-- Fin del Formulario de Contacto -->
+
+                </div>
 
             </div>
 
-            <div class="col-lg-8">
-                <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up"
-                    data-aos-delay="200">
-                    <div class="row gy-4">
+        </section><!-- Fin de la Sección de Contacto -->
 
-                        <div class="col-md-6">
-                            <input type="text" name="name" class="form-control" placeholder="Tu Nombre" required="">
-                        </div>
-
-                        <div class="col-md-6">
-                            <input type="email" class="form-control" name="email" placeholder="Tu Correo" required="">
-                        </div>
-
-                        <div class="col-md-12">
-                            <input type="text" class="form-control" name="subject" placeholder="Asunto" required="">
-                        </div>
-
-                        <div class="col-md-12">
-                            <textarea class="form-control" name="message" rows="6" placeholder="Mensaje" required=""></textarea>
-                        </div>
-
-                        <div class="col-md-12 text-center">
-                            <div class="loading">Cargando</div>
-                            <div class="error-message"></div>
-                            <div class="sent-message">Tu mensaje ha sido enviado. ¡Gracias!</div>
-
-                            <button type="submit">Enviar Mensaje</button>
-                        </div>
-
-                    </div>
-                </form>
-            </div><!-- Fin del Formulario de Contacto -->
-
-        </div>
-
-    </div>
-
-</section><!-- Fin de la Sección de Contacto -->
-
-        <!-- /Contact Section -->    
+        <!-- /Contact Section -->
     </main>
     <footer id="footer" class="footer light-background">
 
@@ -511,7 +521,7 @@
                         <a href="#"><i class="bi bi-linkedin"></i></a>
                     </div>
                 </div>
-    
+
                 <div class="col-lg-2 col-md-3 footer-links">
                     <h4>Enlaces Útiles</h4>
                     <ul>
@@ -522,7 +532,7 @@
                         <li><a href="#">Política de privacidad</a></li>
                     </ul>
                 </div>
-    
+
                 <div class="col-lg-2 col-md-3 footer-links">
                     <h4>Nuestros Servicios</h4>
                     <ul>
@@ -533,7 +543,7 @@
                         <li><a href="#">Distribución de Alimentos</a></li>
                     </ul>
                 </div>
-    
+
                 <div class="col-lg-2 col-md-3 footer-links">
                     <h4>Recursos</h4>
                     <ul>
@@ -544,7 +554,7 @@
                         <li><a href="#">Eventos</a></li>
                     </ul>
                 </div>
-    
+
                 <div class="col-lg-2 col-md-3 footer-links">
                     <h4>Contáctanos</h4>
                     <ul>
@@ -555,17 +565,17 @@
                         <li><a href="#">Transparencia</a></li>
                     </ul>
                 </div>
-    
+
             </div>
         </div>
-    
+
         <div class="container copyright text-center mt-4">
             <p>© <span>Derechos reservados</span> <strong class="px-1 sitename">PANYC</strong> <span>2025</span></p>
             <div class="credits">
                 Desarrollado con ❤️ por el equipo de <a href="https://panyc.org">PANYC</a>
             </div>
         </div>
-    
+
     </footer>
     <!-- Scroll Top -->
     <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
