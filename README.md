@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="/public/img/logo (1).png" width="200" alt="Logo de PANYC">
+  <img src="public/img/logo.png" width="200" alt="Logo de PANYC">
 </p>
 
 <p align="center">
