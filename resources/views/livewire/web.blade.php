@@ -4,14 +4,14 @@
         <div class="topbar d-flex align-items-center">
             <div class="container d-flex justify-content-center justify-content-md-between">
                 <div class="contact-info d-flex align-items-center">
-                    <i class="bi bi-envelope d-flex align-items-center"><a href="#">admin@admin.com</a></i>
+                    <i class="bi bi-envelope d-flex align-items-center"><a href="#">panycunisinu@gmail.com</a></i>
                     <i class="bi bi-phone d-flex align-items-center ms-4"><span>+57 305-320-3195</span></i>
                 </div>
                 <div class="social-links d-none d-md-flex align-items-center">
-                    <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
-                    <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-                    <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-                    <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+                    <a href="" class="twitter"><i class="bi bi-twitter-x"></i></a>
+                    <a href="" class="facebook"><i class="bi bi-facebook"></i></a>
+                    <a href="" class="instagram"><i class="bi bi-instagram"></i></a>
+                    <a href="" class="linkedin"><i class="bi bi-linkedin"></i></a>
                 </div>
             </div>
         </div><!-- End Top Bar -->
@@ -123,8 +123,8 @@
 
                     <div class="col-lg-6 position-relative align-self-start" data-aos="fade-up" data-aos-delay="200">
                         <img src="assets/img/about.jpg" class="img-fluid" alt="Sobre PANYC">
-                        <a href="https://www.youtube.com/watch?v=54Th1HDwirU&pp=ygUWY2FsY3Vsb3MgbnV0cmljaW9uYWxlcw%3D%3D"
-                            class="glightbox pulsating-play-btn" title="Ver video de PANYC"></a>
+                        <a href="https://youtu.be/1Gq9zocw_zE" class="glightbox pulsating-play-btn"
+                            title="Ver video de PANYC"></a>
                     </div>
 
                     <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="100">
@@ -223,7 +223,7 @@
         </section>
         <!-- /Stats Section -->
 
-        <!-- Services Section -->
+        <!-- Sección de Servicios -->
         <section id="services" class="services section">
 
             <div class="container section-title" data-aos="fade-up">
@@ -233,7 +233,6 @@
             </div><!-- Fin del título -->
 
             <div class="container">
-
                 <div class="row gy-4">
 
                     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
@@ -247,7 +246,7 @@
                             <p>Agrega alimentos a la base de datos con sus respectivas propiedades y valores
                                 nutricionales.</p>
                         </div>
-                    </div><!-- Fin del servicio -->
+                    </div>
 
                     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
                         <div class="service-item position-relative">
@@ -260,7 +259,7 @@
                             <p>Administra vitaminas, minerales y otros componentes que forman parte del análisis
                                 nutricional.</p>
                         </div>
-                    </div><!-- Fin del servicio -->
+                    </div>
 
                     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
                         <div class="service-item position-relative">
@@ -272,7 +271,7 @@
                             </a>
                             <p>Calcula el valor nutricional total de recetas o alimentos combinados en tiempo real.</p>
                         </div>
-                    </div><!-- Fin del servicio -->
+                    </div>
 
                     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
                         <div class="service-item position-relative">
@@ -285,7 +284,7 @@
                             <p>Asocia cada dato nutricional con una fuente confiable, como investigaciones científicas o
                                 instituciones.</p>
                         </div>
-                    </div><!-- Fin del servicio -->
+                    </div>
 
                     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
                         <div class="service-item position-relative">
@@ -297,7 +296,7 @@
                             </a>
                             <p>Administra los usuarios registrados, sus permisos y roles dentro de la plataforma.</p>
                         </div>
-                    </div><!-- Fin del servicio -->
+                    </div>
 
                     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
                         <div class="service-item position-relative">
@@ -310,21 +309,21 @@
                             <p>Genera reportes detallados de los análisis nutricionales realizados, listos para exportar
                                 o imprimir.</p>
                         </div>
-                    </div><!-- Fin del servicio -->
+                    </div>
 
                 </div>
-
             </div>
 
         </section>
-        <!-- /Services Section -->
+        <!-- /Sección de Servicios -->
 
+        <!-- Gallery Section -->
         <section id="gallery" class="gallery section">
 
             <!-- Section Title -->
             <div class="container section-title" data-aos="fade-up">
-                <h2>Gallery</h2>
-                <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+                <h2>Galería</h2>
+                <p>Explora las funciones clave de PANYC en esta galería visual.</p>
             </div><!-- End Section Title -->
 
             <div class="container-fluid" data-aos="fade-up" data-aos-delay="100">
@@ -333,72 +332,64 @@
 
                     <div class="col-lg-3 col-md-4">
                         <div class="gallery-item">
-                            <a href="assets/img/gallery/gallery-1.jpg" class="glightbox"
-                                data-gallery="images-gallery">
-                                <img src="assets/img/gallery/gallery-1.jpg" alt="" class="img-fluid">
+                            <a href="assets/img/gallery/img1.png" class="glightbox" data-gallery="images-gallery">
+                                <img src="assets/img/gallery/img1.png" alt="" class="img-fluid">
                             </a>
                         </div>
                     </div><!-- End Gallery Item -->
 
                     <div class="col-lg-3 col-md-4">
                         <div class="gallery-item">
-                            <a href="assets/img/gallery/gallery-2.jpg" class="glightbox"
-                                data-gallery="images-gallery">
-                                <img src="assets/img/gallery/gallery-2.jpg" alt="" class="img-fluid">
+                            <a href="assets/img/gallery/img2.png" class="glightbox" data-gallery="images-gallery">
+                                <img src="assets/img/gallery/img2.png" alt="" class="img-fluid">
                             </a>
                         </div>
                     </div><!-- End Gallery Item -->
 
                     <div class="col-lg-3 col-md-4">
                         <div class="gallery-item">
-                            <a href="assets/img/gallery/gallery-3.jpg" class="glightbox"
-                                data-gallery="images-gallery">
-                                <img src="assets/img/gallery/gallery-3.jpg" alt="" class="img-fluid">
+                            <a href="assets/img/gallery/img3.png" class="glightbox" data-gallery="images-gallery">
+                                <img src="assets/img/gallery/img3.png" alt="" class="img-fluid">
                             </a>
                         </div>
                     </div><!-- End Gallery Item -->
 
                     <div class="col-lg-3 col-md-4">
                         <div class="gallery-item">
-                            <a href="assets/img/gallery/gallery-4.jpg" class="glightbox"
-                                data-gallery="images-gallery">
-                                <img src="assets/img/gallery/gallery-4.jpg" alt="" class="img-fluid">
+                            <a href="assets/img/gallery/img4.png" class="glightbox" data-gallery="images-gallery">
+                                <img src="assets/img/gallery/img4.png" alt="" class="img-fluid">
                             </a>
                         </div>
                     </div><!-- End Gallery Item -->
 
                     <div class="col-lg-3 col-md-4">
                         <div class="gallery-item">
-                            <a href="assets/img/gallery/gallery-5.jpg" class="glightbox"
-                                data-gallery="images-gallery">
-                                <img src="assets/img/gallery/gallery-5.jpg" alt="" class="img-fluid">
+                            <a href="assets/img/gallery/img5.png" class="glightbox" data-gallery="images-gallery">
+                                <img src="assets/img/gallery/img5.png" alt="" class="img-fluid">
                             </a>
                         </div>
                     </div><!-- End Gallery Item -->
 
                     <div class="col-lg-3 col-md-4">
                         <div class="gallery-item">
-                            <a href="assets/img/gallery/gallery-6.jpg" class="glightbox"
-                                data-gallery="images-gallery">
-                                <img src="assets/img/gallery/gallery-6.jpg" alt="" class="img-fluid">
+                            <a href="assets/img/gallery/img6.png" class="glightbox" data-gallery="images-gallery">
+                                <img src="assets/img/gallery/img6.png" alt="" class="img-fluid">
                             </a>
                         </div>
                     </div><!-- End Gallery Item -->
 
                     <div class="col-lg-3 col-md-4">
                         <div class="gallery-item">
-                            <a href="assets/img/gallery/gallery-7.jpg" class="glightbox"
-                                data-gallery="images-gallery">
-                                <img src="assets/img/gallery/gallery-7.jpg" alt="" class="img-fluid">
+                            <a href="assets/img/gallery/img7.png" class="glightbox" data-gallery="images-gallery">
+                                <img src="assets/img/gallery/img7.png" alt="" class="img-fluid">
                             </a>
                         </div>
                     </div><!-- End Gallery Item -->
 
                     <div class="col-lg-3 col-md-4">
                         <div class="gallery-item">
-                            <a href="assets/img/gallery/gallery-8.jpg" class="glightbox"
-                                data-gallery="images-gallery">
-                                <img src="assets/img/gallery/gallery-8.jpg" alt="" class="img-fluid">
+                            <a href="assets/img/gallery/img8.png" class="glightbox" data-gallery="images-gallery">
+                                <img src="assets/img/gallery/img8.png" alt="" class="img-fluid">
                             </a>
                         </div>
                     </div><!-- End Gallery Item -->
@@ -408,6 +399,7 @@
             </div>
 
         </section><!-- /Gallery Section -->
+
         <!-- Contact Section -->
         <!-- Sección de Contacto -->
         <section id="contact" class="contact section">
@@ -420,7 +412,7 @@
 
             <div class="mb-5" data-aos="fade-up" data-aos-delay="200">
                 <iframe style="border:0; width: 100%; height: 270px;"
-                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48389.78314118045!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sus!4v1676961268712!5m2!1sen!2sus"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125580.52051752414!2d-75.64071893692017!3d10.390466047363612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef625c37aec54b1%3A0xda54a062cdc632b0!2sUniversidad%20del%20Sin%C3%BA%20El%C3%ADas%20Bechara%20Zain%C3%BAm%2C%20Seccional%20Cartagena!5e0!3m2!1ses-419!2sco!4v1752588940955!5m2!1ses-419!2sco"
                     frameborder="0" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div><!-- Fin del Mapa de Google -->
@@ -434,7 +426,8 @@
                             <i class="bi bi-geo-alt flex-shrink-0"></i>
                             <div>
                                 <h3>Ubicación</h3>
-                                <p>Calle Adam 108, Nueva York, NY 535022</p>
+                                <p>Distrito Turístico Y Cultural, Tv. 54 #41-117, Cartagena de Indias, Cartagena,
+                                    Provincia de Cartagena, Bolívar</p>
                             </div>
                         </div><!-- Fin del Ítem de Información -->
 
@@ -442,7 +435,7 @@
                             <i class="bi bi-telephone flex-shrink-0"></i>
                             <div>
                                 <h3>Teléfono</h3>
-                                <p>+1 5589 55488 55</p>
+                                <p>+57 305 320 3195</p>
                             </div>
                         </div><!-- Fin del Ítem de Información -->
 
@@ -450,46 +443,14 @@
                             <i class="bi bi-envelope flex-shrink-0"></i>
                             <div>
                                 <h3>Correo Electrónico</h3>
-                                <p>info@ejemplo.com</p>
+                                <p>panycunisinu@gmail.com</p>
                             </div>
                         </div><!-- Fin del Ítem de Información -->
 
                     </div>
 
                     <div class="col-lg-8">
-                        <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up"
-                            data-aos-delay="200">
-                            <div class="row gy-4">
-
-                                <div class="col-md-6">
-                                    <input type="text" name="name" class="form-control"
-                                        placeholder="Tu Nombre" required="">
-                                </div>
-
-                                <div class="col-md-6">
-                                    <input type="email" class="form-control" name="email"
-                                        placeholder="Tu Correo" required="">
-                                </div>
-
-                                <div class="col-md-12">
-                                    <input type="text" class="form-control" name="subject" placeholder="Asunto"
-                                        required="">
-                                </div>
-
-                                <div class="col-md-12">
-                                    <textarea class="form-control" name="message" rows="6" placeholder="Mensaje" required=""></textarea>
-                                </div>
-
-                                <div class="col-md-12 text-center">
-                                    <div class="loading">Cargando</div>
-                                    <div class="error-message"></div>
-                                    <div class="sent-message">Tu mensaje ha sido enviado. ¡Gracias!</div>
-
-                                    <button type="submit">Enviar Mensaje</button>
-                                </div>
-
-                            </div>
-                        </form>
+                        @livewire('contact-form')
                     </div><!-- Fin del Formulario de Contacto -->
 
                 </div>
@@ -509,60 +470,53 @@
                         <span class="sitename">PANYC</span>
                     </a>
                     <div class="footer-contact pt-3">
-                        <p>Calle 25 #30-45 Barrio La Esperanza</p>
-                        <p>Cartagena, Bolívar, Colombia</p>
-                        <p class="mt-3"><strong>Teléfono:</strong> <span>+57 305 123 4567</span></p>
-                        <p><strong>Correo:</strong> <span>contacto@panyc.org</span></p>
-                    </div>
-                    <div class="social-links d-flex mt-4">
-                        <a href="#"><i class="bi bi-twitter-x"></i></a>
-                        <a href="#"><i class="bi bi-facebook"></i></a>
-                        <a href="#"><i class="bi bi-instagram"></i></a>
-                        <a href="#"><i class="bi bi-linkedin"></i></a>
+                        <p><strong>Correo:</strong> <span>panycunisinu@gmail.com</span></p>
+                        <p><strong>Teléfono:</strong> <span>305 3203195</span></p>
+                        <p><strong>Manual de Usuario:</strong> <a href="#">Ver documento</a></p>
                     </div>
                 </div>
 
                 <div class="col-lg-2 col-md-3 footer-links">
                     <h4>Enlaces Útiles</h4>
                     <ul>
-                        <li><a href="#">Inicio</a></li>
-                        <li><a href="#">Quiénes somos</a></li>
-                        <li><a href="#">Programas</a></li>
-                        <li><a href="#">Términos de uso</a></li>
-                        <li><a href="#">Política de privacidad</a></li>
+                        <li><a href="#hero">Inicio</a></li>
+                        <li><span class="text-muted">Quiénes somos (Próximamente)</span></li>
+                        <li><span class="text-muted">Programas (Próximamente)</span></li>
+                        <li><span class="text-muted">Términos de uso (Próximamente)</span></li>
+                        <li><span class="text-muted">Política de privacidad (Próximamente)</span></li>
                     </ul>
                 </div>
 
                 <div class="col-lg-2 col-md-3 footer-links">
                     <h4>Nuestros Servicios</h4>
                     <ul>
-                        <li><a href="#">Atención Nutricional</a></li>
-                        <li><a href="#">Educación Alimentaria</a></li>
-                        <li><a href="#">Apoyo Comunitario</a></li>
-                        <li><a href="#">Jornadas de Salud</a></li>
-                        <li><a href="#">Distribución de Alimentos</a></li>
+                        <li><span class="text-muted">Atención Nutricional (Próximamente)</span></li>
+                        <li><span class="text-muted">Educación Alimentaria (Próximamente)</span></li>
+                        <li><span class="text-muted">Apoyo Comunitario (Próximamente)</span></li>
+                        <li><span class="text-muted">Jornadas de Salud (Próximamente)</span></li>
+                        <li><span class="text-muted">Distribución de Alimentos (Próximamente)</span></li>
                     </ul>
                 </div>
 
                 <div class="col-lg-2 col-md-3 footer-links">
                     <h4>Recursos</h4>
                     <ul>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Historias de impacto</a></li>
-                        <li><a href="#">Guías nutricionales</a></li>
-                        <li><a href="#">Voluntariado</a></li>
-                        <li><a href="#">Eventos</a></li>
+                        <li><span class="text-muted">Blog (Próximamente)</span></li>
+                        <li><span class="text-muted">Historias de impacto (Próximamente)</span></li>
+                        <li><span class="text-muted">Guías nutricionales (Próximamente)</span></li>
+                        <li><span class="text-muted">Voluntariado (Próximamente)</span></li>
+                        <li><span class="text-muted">Eventos (Próximamente)</span></li>
                     </ul>
                 </div>
 
                 <div class="col-lg-2 col-md-3 footer-links">
                     <h4>Contáctanos</h4>
                     <ul>
-                        <li><a href="#">Preguntas frecuentes</a></li>
-                        <li><a href="#">Donaciones</a></li>
-                        <li><a href="#">Alianzas</a></li>
-                        <li><a href="#">Prensa</a></li>
-                        <li><a href="#">Transparencia</a></li>
+                        <li><span class="text-muted">Preguntas frecuentes (Próximamente)</span></li>
+                        <li><span class="text-muted">Donaciones (Próximamente)</span></li>
+                        <li><span class="text-muted">Alianzas (Próximamente)</span></li>
+                        <li><span class="text-muted">Prensa (Próximamente)</span></li>
+                        <li><span class="text-muted">Transparencia (Próximamente)</span></li>
                     </ul>
                 </div>
 
@@ -572,11 +526,13 @@
         <div class="container copyright text-center mt-4">
             <p>© <span>Derechos reservados</span> <strong class="px-1 sitename">PANYC</strong> <span>2025</span></p>
             <div class="credits">
-                Desarrollado con ❤️ por el equipo de <a href="https://panyc.org">PANYC</a>
+                Desarrollado con ❤️ por el equipo de <strong>Universidad del Sinú</strong>
             </div>
         </div>
 
     </footer>
+
+
     <!-- Scroll Top -->
     <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
             class="bi bi-arrow-up-short"></i></a>
