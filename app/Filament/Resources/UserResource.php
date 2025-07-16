@@ -2,20 +2,21 @@
 
 namespace App\Filament\Resources;
 
-use App\Filament\Resources\UserResource\Pages;
-use App\Filament\Resources\UserResource\RelationManagers;
-use App\Models\User;
 use Filament\Forms;
-use Filament\Forms\Form;
-use Filament\Resources\Resource;
+use App\Models\User;
 use Filament\Tables;
+use Filament\Forms\Form;
 use Filament\Tables\Table;
-use Illuminate\Database\Eloquent\Builder;
-use Illuminate\Database\Eloquent\SoftDeletingScope;
-use Filament\Forms\Components\Section;
-use Filament\Forms\Components\TextInput;
+use Filament\Resources\Resource;
 use Filament\Forms\Components\Select;
+use Filament\Forms\Components\Section;
+use Filament\Forms\Components\Textarea;
 use Filament\Tables\Columns\TextColumn;
+use Filament\Forms\Components\TextInput;
+use Illuminate\Database\Eloquent\Builder;
+use App\Filament\Resources\UserResource\Pages;
+use Illuminate\Database\Eloquent\SoftDeletingScope;
+use App\Filament\Resources\UserResource\RelationManagers;
 
 class UserResource extends Resource
 {
@@ -48,6 +49,12 @@ class UserResource extends Resource
                             ->minLength(8)
                             ->maxLength(255)
                             ->dehydrated(fn($state) => !empty($state)),
+
+                        Textarea::make('mensaje_al_usuario')
+                            ->label('Mensaje al usuario')
+                            ->rows(3)
+                            ->helperText('Este mensaje será enviado por correo al usuario y se guardará para referencia.'),
+
                     ]),
                 Section::make('Roles')
                     ->schema([

@@ -2,8 +2,8 @@
 
 namespace App\Models;
 
-// use Illuminate\Contracts\Auth\MustVerifyEmail;
-
+use App\Models\MensajeUsuario;
+use App\Notifications\UsuarioNotificado;
 use BezhanSalleh\FilamentShield\Traits\HasPanelShield;
 use Filament\Models\Contracts\FilamentUser;
 use Filament\Panel;
@@ -14,35 +14,19 @@ use Spatie\Permission\Traits\HasRoles;
 
 class User extends Authenticatable implements FilamentUser
 {
-    /** @use HasFactory<\Database\Factories\UserFactory> */
     use HasFactory, Notifiable, HasRoles, HasPanelShield;
 
-    /**
-     * The attributes that are mass assignable.
-     *
-     * @var list<string>
-     */
     protected $fillable = [
         'name',
         'email',
         'password',
     ];
 
-    /**
-     * The attributes that should be hidden for serialization.
-     *
-     * @var list<string>
-     */
     protected $hidden = [
         'password',
         'remember_token',
     ];
 
-    /**
-     * Get the attributes that should be cast.
-     *
-     * @return array<string, string>
-     */
     protected function casts(): array
     {
         return [
@@ -54,5 +38,43 @@ class User extends Authenticatable implements FilamentUser
     public function canAccessPanel(Panel $panel): bool
     {
         return true;
+    }
+
+    // Relación con mensaje personalizado enviado
+    public function mensajeEnviado()
+    {
+        return $this->hasOne(MensajeUsuario::class);
+    }
+
+    protected static function booted()
+    {
+        static::created(function ($user) {
+            $rol = $user->getRoleNames()->first() ?? 'Sin rol';
+
+            // Obtiene el último mensaje desde la tabla (si existe)
+            $mensajePersonalizado = $user->mensajeEnviado()->latest()->first()?->mensaje;
+
+            $user->notify(new UsuarioNotificado([
+                'mensaje' => 'Tu usuario ha sido creado exitosamente.',
+                'email' => $user->email,
+                'rol' => $rol,
+                'url' => url('/admin/login'),
+                'mensaje_usuario' => $mensajePersonalizado,
+            ]));
+        });
+
+        static::updated(function ($user) {
+            $rol = $user->getRoleNames()->first() ?? 'Sin rol';
+
+            $mensajePersonalizado = $user->mensajeEnviado()->latest()->first()?->mensaje;
+
+            $user->notify(new UsuarioNotificado([
+                'mensaje' => 'Tu usuario ha sido actualizado.',
+                'email' => $user->email,
+                'rol' => $rol,
+                'url' => url('/admin/login'),
+                'mensaje_usuario' => $mensajePersonalizado,
+            ]));
+        });
     }
 }
